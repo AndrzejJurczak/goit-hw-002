@@ -11,6 +11,15 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
+.logo-1 {
+  color: #4d5ae5;
+}
+.logo-2__header {
+  color: #2e2f42;
+}
+.logo-2__footer {
+  color: #f4f4fd;
+}
 
 .section-what-are-we-doing__title,
 .section-team__title {
@@ -156,7 +165,70 @@ a {
 /* end section team */
 
 /* footer */
+.footer {
+  background: #2e2f42;
+  height: 312px;
+}
 .footer-description {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  width: 264px;
+}
+/* end footer */
+
+/* portfolio-buttons */
+
+.portfolio-buttons__button {
+  color: #4d5ae5;
+  text-align: center;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--CLOUD, #f4f4fd);
+}
+.portfolio-buttons__button:hover,
+.portfolio-buttons__button:focus {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.portfolio-client__img {
+  width: 360px;
+  height: 300px;
+}
+.portfolio-client__tittle {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.portfolio-client__description {
+  color: #434455;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -164,4 +236,4 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-/* end footer */
+/* end portfolio-buttons*/
